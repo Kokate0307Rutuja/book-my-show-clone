@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "../components/Navbar/Navbar.Component";
-const Defaultlayout = (Component) => ({ ...props})   => {
+const DefaultlayoutHoc = (Component) => ({ ...props})   => {
   return (
     <div>
         <Navbar />
@@ -10,4 +10,4 @@ const Defaultlayout = (Component) => ({ ...props})   => {
   );
 }
 
-export default Defaultlayout;
+export default DefaultlayoutHoc;

@@ -11,4 +11,4 @@ const MovielayoutHoc = (Component) => ({ ...props }) => {
   );
 };
 
-export default MovielayoutHoc ;
+export default MovielayoutHoc;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
-import MovieLayoutHoc from "../layout/Movie.layout";
+import MovielayoutHoc from "../layout/Movie.layout";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { MovieContext } from "../context/Movie.context";
@@ -9,12 +9,12 @@ import PosterSlider from "../components/PosterSlider/PosterSlider.Component";
 import MovieHero from "../components/MovieHero/MovieHero.Component";
 import Cast from "../components/Cast/Cast.Component";
 
-const MoviePage = () => {
-  const { id } = useParams();
-  const { movie, setMovie } = useContext(MovieContext);
-  const [cast, setCast] = useState([]);
-  const [similarMovies, setSimilarMovies] = useState([]);
-  const [recommendedMovies, setRecommendedMovies] = useState([]);
+ const MoviePage = () => {
+   const { id } = useParams();
+   const { movie, setMovie } = useContext(MovieContext);
+   const [cast, setCast] = useState([]);
+   const [similarMovies, setSimilarMovies] = useState([]);
+   const [recommendedMovies, setRecommendedMovies] = useState([]);
 
   useEffect(() => {
     const requestCast = async () => {
@@ -22,8 +22,8 @@ const MoviePage = () => {
       setCast(getCast.data.cast);
     };
 
-    requestCast();
-  }, [id]);
+     requestCast();
+       }, [id]);
 
   useEffect(() => {
     const requestSimilarMovies = async () => {
@@ -54,7 +54,7 @@ const MoviePage = () => {
     requestMovie();
   }, [id]);
 
-  const settingCast = {
+   const settingCast = {
     infinite: false,
     speed: 500,
     slidesToShow: 6,
@@ -84,9 +84,9 @@ const MoviePage = () => {
         },
       },
     ],
-  };
+   };
 
-  const settings = {
+   const settings = {
     infinite: false,
     speed: 500,
     slidesToShow: 4,
@@ -117,10 +117,10 @@ const MoviePage = () => {
         },
       },
     ],
-  };
+   };
 
-  return (
-    <>
+   return (
+   <>
       <MovieHero />
       <div className="my-12 container px-4 lg-ml-20 lg:w-2/3">
         <div className="flex flex-col items-start gap-3">
@@ -214,6 +214,5 @@ const MoviePage = () => {
       </div>
     </>
   );
-};
-
-export default MovieLayoutHoc(MoviePage);
+ };
+ export default MovielayoutHoc(MoviePage);
