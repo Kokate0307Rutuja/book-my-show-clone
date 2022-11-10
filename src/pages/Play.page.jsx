@@ -80,7 +80,7 @@ const PlayPage = () => {
             </div>
           </div>
         </div>
-        {/* 
+        { 
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31104.23539200534!2d77.61554!3d12.969969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c80b1ca7533de73!2zMTLCsDU4JzExLjkiTiA3N8KwMzYnNTUuOSJF!5e0!3m2!1sen!2sus!4v1663427476353!5m2!1sen!2sus"
           width="600"
@@ -90,7 +90,7 @@ const PlayPage = () => {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           title="play location"
-        ></iframe> */}
+        ></iframe> }
       </div>
     </>
   );

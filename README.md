@@ -1,6 +1,47 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/book-my-show-clone).
+
+
+
+Book My Show
+BookMyShow is an entertainment ticketing website. Where customers with endless options to purchase tickets for the latest movies, music concerts, plays, stand-up comic acts, and major sporting events to name a few.
+
+We used a technology stack containing :-
+1.	React
+2.	Tailwind CSS
+3.  javascript
+4.	Axios
+5.	react-router-dom
+6.  Mongodb
+7.	razorpay for payment
+8.	react-silk packages
+9.  create-react-app
+
+
+Note :-
+I have create the .env file it include the api ref key
+i.e.REACT_APP_API_KEY="--".
+
+
+Features
+1.	It is a Sinle Page Application.
+2.	You will be able to create your account using login and signup option, used API calls for validating user credentials.
+3.	Used Reusable Components in landing page such that it can be reused in any other pages easily without repeatation.
+4.	You can choose a movie which you want to book.
+5.	One can Sort and Filter the product according to the gender and brand of different products.
+6.	All the data is stored in the back-end data of the User.
+
+
+Deployed Link:-
+
+What did we actually clone?
+1.	Log in.
+2.	Home page.
+3.	See all page where all movies are displayed and filter according to languages, screen type and genre.
+4.	Payment Page.
+
+
 
 ## Available Scripts
 
@@ -14,10 +55,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,44 +64,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+You can learn more in the React-slick, check out the [React-slick documentation](https://react-siick.com/docs/getting-started).
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: 
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://github.com/Kokate0307Rutuja/book-my-show-clone/tree/master
